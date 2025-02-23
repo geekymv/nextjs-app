@@ -1,3 +1,25 @@
+## 创建一个 Next.js 项目
+```bash
+# 安装 pnpm
+npm install -g pnpm
+
+pnpm --version
+
+# 创建一个目录
+mkdir nextjs
+cd nextjs
+
+# 创建 my-app 项目
+npx create-next-app@latest nextjs-app
+# 或创建指定版本的next
+npx create-next-app@14.2.14 nextjs-app
+
+# 启动项目
+cd nextjs-app
+pnpm dev 
+
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
